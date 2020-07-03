@@ -1,0 +1,236 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+header {
+  background-color: #192a56;
+  color: #fff;
+  height: 90px;
+  width: 100%;
+}
+
+.header-logo a{
+  float: left;
+  padding: 25px 40px;
+  font-size: 36px;
+  color: white;
+  text-decoration: none;
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+  padding: 38px 20px;
+  color: white;
+  font-size: 14px;
+}
+
+.header-right {
+  float: right;
+  padding: 36px 40px;
+}
+
+.cari {
+  width: 225px;
+  padding: 2.5px;
+  font-size: 14px;
+  border: 1px solid #dee7ec;
+  margin-right: 10px;
+}
+
+.btn-cari {
+  float: right;
+  font-size: 12px;
+  padding: 3.5px;
+  background-color: #dee7ec;
+  color: black;
+  border: 1px solid #dee7ec;
+}
+
+.btn-cari:hover {
+  opacity: 0.8;
+}
+
+.link-header {
+  color: white;
+  text-decoration: none;
+}
+
+.link-header:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+/* MAIN */
+main {
+  padding: 180px 0 100px 0;
+  background-image: url('image/Anime-2.jpg');
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.container-main {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+main h1 {
+  opacity: 0.8;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+main p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+/* MAIN TAMBAHAN */
+.contents {
+  height: 300px;
+  background-color: #f7f7f7;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.section-title {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: black;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.contents-item {
+  float: left;
+  width: 25%;
+}
+
+.contents-item p {
+  font-size: 15px;
+  color: black;
+  margin-top: 15px;
+}
+
+.contents-item img {
+  width: 150px;
+  height: 150px;
+}
+
+/* SEBELUM FOOTER */
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.heading {
+  padding-bottom: 20px;
+}
+
+.heading h2 {
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/* FOOTER */
+footer {
+  height: 80px;
+  padding: 50px;
+  background-color: #192a56;
+  border-top: 1px solid #eee;
+}
+
+.p-0 {
+  color: white;
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+.email-gfm {
+  color: white;
+  text-decoration: none;
+}
+
+.email-gfm:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.hubungi-kami {
+  float: right;
+  color: white;
+  padding-top: 5px;
+}
+
+.hubungi-kami li {
+  list-style: none;
+  padding-bottom: 20px;
+  font-size: 13px;
+}
